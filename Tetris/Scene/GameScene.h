@@ -47,6 +47,9 @@ private:
 	bool mWasRightPressedLastFrame;
 	bool mWasUpPressedLastFrame;
 	bool mWasPPressedLastFrame;
+
+	sf::Text mPauseText;
+	sf::Font mFont;
 };
 
 #endif

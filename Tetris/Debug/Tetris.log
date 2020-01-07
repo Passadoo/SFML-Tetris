@@ -1,1 +1,46 @@
-﻿  Tetris.vcxproj -> C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Debug\Tetris.exe
+﻿  GameScene.cpp
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(11,27): warning C4305: '=': truncation from 'double' to 'float'
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(20,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(52,67): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(129,24): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(152,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(208,25): warning C4244: 'initializing': conversion from 'T' to 'int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(213,18): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(250,25): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(308,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(319,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(330,50): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(335,49): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(345,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(356,24): warning C4018: '<': signed/unsigned mismatch
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(367,39): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Tetris\Scene\GameScene.cpp(372,38): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Tetris.vcxproj -> C:\Users\eljusal\Desktop\Code Practice\Visual Studio Projects\Tetris\Debug\Tetris.exe

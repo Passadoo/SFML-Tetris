@@ -51,6 +51,11 @@ GameScene::GameScene()
 	mLeftWall = new Wall(sf::Vector2f(0.0, 0.0));
 	mRightWall = new Wall(sf::Vector2f((Constants::WORLD_DIMENSION_X - Constants::WALL_WIDTH), 0.0f));
 
+	mFont.loadFromFile("Assets/space age.ttf");
+	mPauseText.setString("PAUSED");
+	mPauseText.setFont(mFont);
+	//mPauseText.setScale(1.0f, 1.0f);
+	mPauseText.setPosition(Constants::WORLD_DIMENSION_X / 4 + 100, Constants::WORLD_DIMENSION_Y / 3);
 }
 
 void GameScene::Cleanup()
@@ -75,6 +80,11 @@ void GameScene::draw(sf::RenderTarget& target, sf::RenderStates states)const
 	}
 
 	mCurrentShape->draw(target, states);
+
+	if (mGameIsPaused)
+	{
+		target.draw(mPauseText, states);
+	}
 }
 
 void GameScene::update(float dt)
@@ -170,7 +180,6 @@ void GameScene::update(float dt)
 						}
 						else
 						{
-							std::cout << "Flag A " << std::endl;
 							auto positions = mCurrentShape->GetSpritePositions();
 							for (auto it = positions.begin(); it != positions.end(); it++)
 							{

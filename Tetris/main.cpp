@@ -3,7 +3,7 @@
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800, 800), "SFML works!");
+    sf::RenderWindow window(sf::VideoMode(800, 800), "737R15!");
     sf::Clock clock;
     float updateTimer = 0.1;
     //GameScene* scene = new GameScene();

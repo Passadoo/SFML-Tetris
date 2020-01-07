@@ -15,8 +15,6 @@ MainScene::MainScene()
 	mSubText.setPosition(Constants::WORLD_DIMENSION_X / 4, Constants::WORLD_DIMENSION_Y / 2);
 }
 
-#include <iostream>
-
 void MainScene::draw(sf::RenderTarget& target, sf::RenderStates states)
 {
 	target.draw(mSprite, states);
